@@ -74,7 +74,7 @@ body * {
 
   position: absolute;
   top: 50%;
-  right: 0;
+  left: 0;
   z-index: 1;
   transform: translatey(-50%);
 
@@ -82,6 +82,8 @@ body * {
 }
 .light #switch button {
   animation: slider-in 0.2s forwards;
+  right: 0;
+  left: initial;
 }
 #switch button:hover {
   outline: 8px solid var(--highlight-color);
